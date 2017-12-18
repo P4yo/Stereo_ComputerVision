@@ -1,0 +1,70 @@
+stereoParams = 
+
+  stereoParameters with properties:
+
+   Parameters of Two Cameras
+        CameraParameters1: [1x1 cameraParameters]
+        CameraParameters2: [1x1 cameraParameters]
+
+   Inter-camera Geometry
+        RotationOfCamera2: [3x3 double]
+     TranslationOfCamera2: [-62.7594 0.5922 15.7207]
+        FundamentalMatrix: [3x3 double]
+          EssentialMatrix: [3x3 double]
+
+   Accuracy of Estimation
+    MeanReprojectionError: 0.2070
+
+   Calibration Settings
+              NumPatterns: 3
+              WorldPoints: [48x2 double]
+               WorldUnits: 'mm'
+
+
+estimationErrors = 
+
+  stereoCalibrationErrors with properties:
+
+      Camera1IntrinsicsErrors: [1x1 intrinsicsEstimationErrors]
+      Camera1ExtrinsicsErrors: [1x1 extrinsicsEstimationErrors]
+      Camera2IntrinsicsErrors: [1x1 intrinsicsEstimationErrors]
+       RotationOfCamera2Error: [0.0014 0.0040 3.2439e-04]
+    TranslationOfCamera2Error: [1.6088 0.5710 7.3693]
+
+
+
+##############################################################################
+##############################################################################
+
+
+			Standard Errors of Estimated Stereo Camera Parameters
+			-----------------------------------------------------
+
+Camera 1 Intrinsics
+-------------------
+Focal length (pixels):   [ 1536.2219 +/- 27.9990    1564.3348 +/- 31.1414 ]
+Principal point (pixels):[  486.9623 +/- 19.5389     366.6089 +/- 2.5640  ]
+Radial distortion:       [    0.0275 +/- 0.0109       -0.0078 +/- 0.0346  ]
+
+Camera 1 Extrinsics
+-------------------
+Rotation vectors:
+                         [   -0.1716 +/- 0.0035        0.4051 +/- 0.0095        0.0152 +/- 0.0014  ]
+                         [    0.0987 +/- 0.0030        0.4120 +/- 0.0096       -0.0283 +/- 0.0005  ]
+                         [   -0.1067 +/- 0.0050        0.1931 +/- 0.0060       -1.5981 +/- 0.0006  ]
+
+Translation vectors (mm):
+                         [ -203.9184 +/- 16.5292     127.5897 +/- 2.2224     1319.2953 +/- 25.0793 ]
+                         [  185.9769 +/- 12.4631    -119.1853 +/- 1.5444      951.5604 +/- 19.0048 ]
+                         [  258.6195 +/- 12.2334       2.9324 +/- 1.5082      929.6966 +/- 18.4015 ]
+
+Camera 2 Intrinsics
+-------------------
+Focal length (pixels):   [ 1538.2545 +/- 23.8018    1575.0879 +/- 28.4591 ]
+Principal point (pixels):[  480.3704 +/- 20.8470     420.4541 +/- 1.9757  ]
+Radial distortion:       [    0.0675 +/- 0.0106       -0.1337 +/- 0.0306  ]
+
+Position And Orientation of Camera 2 Relative to Camera 1
+---------------------------------------------------------
+Rotation of camera 2:         [    0.9955 +/- 0.0014       -0.0543 +/- 0.0040        0.0772 +/- 0.0003  ]
+Translation of camera 2 (mm): [  -62.7594 +/- 1.6088        0.5922 +/- 0.5710       15.7207 +/- 7.3693  ]
